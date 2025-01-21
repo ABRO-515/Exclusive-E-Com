@@ -1,6 +1,6 @@
 import React from 'react'
 import { BiSend } from "react-icons/bi";
-import QRCode from "../assets/QRCode.PNG";
+import QRCode from "../assets/QRCode.png";
 import e from "../assets/e.png";
 import a from "../assets/a.png";
 
