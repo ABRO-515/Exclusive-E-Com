@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "title": "Soccer Shoes",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product6.png",
+      "price": 50.0,
+      "discountedPrice": 35.0,
+      "rating": 4.5,
+      "reviews": 125
+    },
+    {
+      "id": 2,
+      "title": "Breed Dry Dog Food",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product1.png",
+      "price": 80.0,
+      "discountedPrice": 60.0,
+      "rating": 4.2,
+      "reviews": 80
+    },
+    {
+      "id": 3,
+      "title": "CANON EOS DSLR Camera",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product2.png",
+      "price": 30.0,
+      "discountedPrice": 20.0,
+      "rating": 4.8,
+      "reviews": 200
+    },
+    {
+      "id": 4,
+      "title": "Lenovo Gaming Laptop",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product3.png",
+      "price": 300.0,
+      "discountedPrice": 250.0,
+      "rating": 4.7,
+      "reviews": 50
+    },
+    {
+      "id": 5,
+      "title": "Kids Electric Car",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product5.png",
+      "price": 100.0,
+      "discountedPrice": 75.0,
+      "rating": 4.3,
+      "reviews": 90
+    },
+    {
+      "id": 6,
+      "title": "GP11 Shooter USB Gamepad",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product7.png",
+      "price": 60.0,
+      "discountedPrice": 45.0,
+      "rating": 4.6,
+      "reviews": 110
+    },
+    {
+      "id": 7,
+      "title": "Quilted Satin Jacket",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product8.png",
+      "price": 50.0,
+      "discountedPrice": 40.0,
+      "rating": 4.4,
+      "reviews": 75
+    },
+    {
+      "id": 8,
+      "title": "Curology Product Set",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product4.png",
+      "price": 25.0,
+      "discountedPrice": 18.0,
+      "rating": 4.1,
+      "reviews": 60
+    }
+
+  ]
+  
