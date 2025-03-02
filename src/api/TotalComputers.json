@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "title": "MSI Stealth 18 Mercedes AMG Motorsport",
+      "image": "https://m.media-amazon.com/images/I/51DyJGKPc5L._AC_SX679_.jpg",
+      "price": 8000.0,
+      "discountedPrice": 7100.0,
+      "rating": 4.8,
+      "reviews": 300
+    },
+    {
+      "id": 2,
+      "title": "MacBook Pro 16",
+      "image": "https://m.media-amazon.com/images/I/61lYIKPieDL.__AC_SY445_SX342_QL70_ML2_.jpg",
+      "price": 2400.0,
+      "discountedPrice": 2200.0,
+      "rating": 4.8,
+      "reviews": 300
+    },
+    {
+      "id": 3,
+      "title": "Dell XPS 15",
+      "image": "https://m.media-amazon.com/images/I/81m5EhS7GaL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "price": 1800.0,
+      "discountedPrice": 1600.0,
+      "rating": 4.7,
+      "reviews": 280
+    },
+    {
+      "id": 4,
+      "title": "HP Spectre x360",
+      "image": "https://m.media-amazon.com/images/I/81YNgbSwYVL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "price": 1500.0,
+      "discountedPrice": 1350.0,
+      "rating": 4.6,
+      "reviews": 250
+    },
+    {
+      "id": 5,
+      "title": "ASUS TUF Gaming F14",
+      "image": "https://m.media-amazon.com/images/I/71cPrJves4L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 1700.0,
+      "discountedPrice": 1550.0,
+      "rating": 4.5,
+      "reviews": 220
+    },
+    {
+      "id": 6,
+      "title": "Asus ROG Zephyrus G14",
+      "image": "https://m.media-amazon.com/images/I/61kCTPCDLfL._AC_SX522_.jpg",
+      "price": 1400.0,
+      "discountedPrice": 1300.0,
+      "rating": 4.4,
+      "reviews": 200
+    },
+    {
+      "id": 7,
+      "title": "Microsoft Surface Laptop 4",
+      "image": "https://m.media-amazon.com/images/I/71SfeuenMTL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "price": 1300.0,
+      "discountedPrice": 1200.0,
+      "rating": 4.3,
+      "reviews": 180
+    },
+    {
+      "id": 8,
+      "title": "Acer Swift 3",
+      "image": "https://m.media-amazon.com/images/I/51CyZhzk0bL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 800.0,
+      "discountedPrice": 750.0,
+      "rating": 4.2,
+      "reviews": 150
+    },
+    {
+      "id": 9,
+      "title": "Razer Blade 15",
+      "image": "https://m.media-amazon.com/images/I/61ZTUpz8LWL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "price": 2000.0,
+      "discountedPrice": 1850.0,
+      "rating": 4.6,
+      "reviews": 270
+    }
+  ]

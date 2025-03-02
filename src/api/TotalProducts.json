@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "title": "Nike Trainer",
+    "image": "https://m.media-amazon.com/images/I/81xNrppj1AL._AC_SX695_.jpg",
+    "price": 50.0,
+    "discountedPrice": 35.0,
+    "rating": 4.5,
+    "reviews": 125
+  },
+  {
+    "id": 2,
+    "title": "Nike Revolution 7",
+    "image": "https://m.media-amazon.com/images/I/51s9EtFt3KL._AC_UL480_FMwebp_QL65_.jpg",
+    "price": 80.0,
+    "discountedPrice": 60.0,
+    "rating": 4.2,
+    "reviews": 80
+  },
+  {
+    "id": 3,
+    "title": "CANON EOS DSLR Camera",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product2.png",
+    "price": 30.0,
+    "discountedPrice": 20.0,
+    "rating": 4.8,
+    "reviews": 200
+  },
+  {
+    "id": 4,
+    "title": "Lenovo Gaming Laptop",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product3.png",
+    "price": 300.0,
+    "discountedPrice": 250.0,
+    "rating": 4.7,
+    "reviews": 50
+  },
+  {
+    "id": 5,
+    "title": "Kids Electric Car",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product5.png",
+    "price": 100.0,
+    "discountedPrice": 75.0,
+    "rating": 4.3,
+    "reviews": 90
+  },
+  {
+    "id": 6,
+    "title": "GP11 Shooter USB Gamepad",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product7.png",
+    "price": 60.0,
+    "discountedPrice": 45.0,
+    "rating": 4.6,
+    "reviews": 110
+  },
+  {
+    "id": 7,
+    "title": "Quilted Satin Jacket",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product8.png",
+    "price": 50.0,
+    "discountedPrice": 40.0,
+    "rating": 4.4,
+    "reviews": 75
+  },
+  {
+    "id": 8,
+    "title": "Curology Product Set",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/product4.png",
+    "price": 25.0,
+    "discountedPrice": 18.0,
+    "rating": 4.1,
+    "reviews": 60
+  },
+  {
+    "id": 9,
+    "title": "Canon EOS R5",
+    "image": "https://m.media-amazon.com/images/I/61lKwvtzRzL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "price": 3899.0,
+    "discountedPrice": 3599.0,
+    "rating": 4.8,
+    "reviews": 450
+  },
+  {
+    "id": 10,
+    "title": "Sony Alpha 7 IV",
+    "image": "https://m.media-amazon.com/images/I/51dfdRXXcjL._AC_SX522_.jpg",
+    "price": 2499.0,
+    "discountedPrice": 2299.0,
+    "rating": 4.7,
+    "reviews": 400
+  },
+  {
+    "id": 11,
+    "title": "Nikon Z9",
+    "image": "https://m.media-amazon.com/images/I/71Exl3eQqFL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "price": 5499.0,
+    "discountedPrice": 5299.0,
+    "rating": 4.9,
+    "reviews": 500
+  },
+  {
+    "id": 12,
+    "title": "Fujifilm X-T4",
+    "image": "https://m.media-amazon.com/images/I/61d3Z7GYoFL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "price": 1699.0,
+    "discountedPrice": 1499.0,
+    "rating": 4.6,
+    "reviews": 350
+  },
+  {
+    "id": 13,
+    "title": "Panasonic Lumix S5",
+    "image": "https://m.media-amazon.com/images/I/71QZe9IN+xL._AC_SY300_SX300_.jpg",
+    "price": 1999.0,
+    "discountedPrice": 1799.0,
+    "rating": 4.5,
+    "reviews": 300
+  },
+  {
+    "id": 14,
+    "title": "Olympus OM-D E-M1 Mark III",
+    "image": "https://m.media-amazon.com/images/I/710gGSpEj-L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "price": 1799.0,
+    "discountedPrice": 1599.0,
+    "rating": 4.4,
+    "reviews": 250
+  },
+  {
+    "id": 15,
+    "title": "Leica Q2",
+    "image": "https://m.media-amazon.com/images/I/71Cbp-Nv0eL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 4995.0,
+    "discountedPrice": 4795.0,
+    "rating": 4.7,
+    "reviews": 200
+  },
+  {
+    "id": 16,
+    "title": "GoPro Hero 10 Black",
+    "image": "https://m.media-amazon.com/images/I/81IR2thM+YL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 499.0,
+    "discountedPrice": 449.0,
+    "rating": 4.6,
+    "reviews": 600
+  },
+  {
+    "id": 17,
+    "title": "MSI Stealth 18 Mercedes AMG Motorsport",
+    "image": "https://m.media-amazon.com/images/I/51DyJGKPc5L._AC_SX679_.jpg",
+    "price": 8000.0,
+    "discountedPrice": 7100.0,
+    "rating": 4.8,
+    "reviews": 300
+  },
+  {
+    "id": 18,
+    "title": "MacBook Pro 16",
+    "image": "https://m.media-amazon.com/images/I/61lYIKPieDL.__AC_SY445_SX342_QL70_ML2_.jpg",
+    "price": 2400.0,
+    "discountedPrice": 2200.0,
+    "rating": 4.8,
+    "reviews": 300
+  },
+  {
+    "id": 19,
+    "title": "Dell XPS 15",
+    "image": "https://m.media-amazon.com/images/I/81m5EhS7GaL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "price": 1800.0,
+    "discountedPrice": 1600.0,
+    "rating": 4.7,
+    "reviews": 280
+  },
+  {
+    "id": 20,
+    "title": "HP Spectre x360",
+    "image": "https://m.media-amazon.com/images/I/81YNgbSwYVL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "price": 1500.0,
+    "discountedPrice": 1350.0,
+    "rating": 4.6,
+    "reviews": 250
+  },
+  {
+    "id": 21,
+    "title": "ASUS TUF Gaming F14",
+    "image": "https://m.media-amazon.com/images/I/71cPrJves4L.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "price": 1700.0,
+    "discountedPrice": 1550.0,
+    "rating": 4.5,
+    "reviews": 220
+  },
+  {
+    "id": 22,
+    "title": "Asus ROG Zephyrus G14",
+    "image": "https://m.media-amazon.com/images/I/61kCTPCDLfL._AC_SX522_.jpg",
+    "price": 1400.0,
+    "discountedPrice": 1300.0,
+    "rating": 4.4,
+    "reviews": 200
+  },
+  {
+    "id": 23,
+    "title": "Microsoft Surface Laptop 4",
+    "image": "https://m.media-amazon.com/images/I/71SfeuenMTL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "price": 1300.0,
+    "discountedPrice": 1200.0,
+    "rating": 4.3,
+    "reviews": 180
+  },
+  {
+    "id": 24,
+    "title": "Acer Swift 3",
+    "image": "https://m.media-amazon.com/images/I/51CyZhzk0bL.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "price": 800.0,
+    "discountedPrice": 750.0,
+    "rating": 4.2,
+    "reviews": 150
+  },
+  {
+    "id": 25,
+    "title": "Razer Blade 15",
+    "image": "https://m.media-amazon.com/images/I/61ZTUpz8LWL.__AC_SY300_SX300_QL70_ML2_.jpg",
+    "price": 2000.0,
+    "discountedPrice": 1850.0,
+    "rating": 4.6,
+    "reviews": 270
+  },
+  {
+    "id": 26,
+    "title": "PlayStation 5",
+    "image": "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 499.99,
+    "discountedPrice": 449.99,
+    "rating": 4.9,
+    "reviews": 2000
+  },
+  {
+    "id": 27,
+    "title": "Xbox Series X",
+    "image": "https://m.media-amazon.com/images/I/616klipzdtL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 499.99,
+    "discountedPrice": 459.99,
+    "rating": 4.8,
+    "reviews": 1800
+  },
+  {
+    "id": 28,
+    "title": "Nintendo Switch",
+    "image": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 349.99,
+    "discountedPrice": 329.99,
+    "rating": 4.7,
+    "reviews": 1500
+  },
+  {
+    "id": 29,
+    "title": "Meta Quest 3",
+    "image": "https://m.media-amazon.com/images/I/61I66N7SE6L._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 499.99,
+    "discountedPrice": 479.99,
+    "rating": 4.6,
+    "reviews": 1200
+  },
+  {
+    "id": 30,
+    "title": "Logitech G29 Driving Force Steering Wheel",
+    "image": "https://m.media-amazon.com/images/I/71CIJhFoGlL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 299.99,
+    "discountedPrice": 269.99,
+    "rating": 4.7,
+    "reviews": 900
+  },
+  {
+    "id": 31,
+    "title": "Thrustmaster T300 RS GT Racing Wheel",
+    "image": "https://m.media-amazon.com/images/I/71vf7FTHtAL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 399.99,
+    "discountedPrice": 379.99,
+    "rating": 4.8,
+    "reviews": 850
+  },
+  {
+    "id": 32,
+    "title": "Xbox Elite Series 2",
+    "image": "https://m.media-amazon.com/images/I/717XTm0moDL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 159.0,
+    "discountedPrice": 279.99,
+    "rating": 4.6,
+    "reviews": 2500
+  },
+  {
+    "id": 33,
+    "title": "PlayStation Portal Play",
+    "image": "https://m.media-amazon.com/images/I/61tWTfjqlOL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 549.99,
+    "discountedPrice": 529.99,
+    "rating": 4.7,
+    "reviews": 1300
+  },
+  {
+    "id": 34,
+    "title": "Bose Headphones",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone2-removebg-preview.png",
+    "price": 120.0,
+    "discountedPrice": 90.0,
+    "rating": 4.7,
+    "reviews": 140
+  },
+  {
+    "id": 35,
+    "title": "Anker Soundcore Headphones",
+    "image": "https://m.media-amazon.com/images/I/51l80KVua0L.__AC_SX300_SY300_QL70_ML2_.jpg",
+    "price": 90.0,
+    "discountedPrice": 70.0,
+    "rating": 4.5,
+    "reviews": 95
+  },
+  {
+    "id": 36,
+    "title": "Uliptz Headphones",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone3-removebg-preview.png",
+    "price": 80.0,
+    "discountedPrice": 60.0,
+    "rating": 4.6,
+    "reviews": 180
+  },
+  {
+    "id": 37,
+    "title": "Maxon Headphones",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone4-removebg-preview.png",
+    "price": 150.0,
+    "discountedPrice": 120.0,
+    "rating": 4.8,
+    "reviews": 220
+  },
+  {
+    "id": 38,
+    "title": "Sony WH-CH720N White | Wireless Headphones",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone5-removebg-preview.png",
+    "price": 200.0,
+    "discountedPrice": 170.0,
+    "rating": 4.5,
+    "reviews": 75
+  },
+  {
+    "id": 39,
+    "title": "Doaqus Gaming Headphones",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone6-removebg-preview.png",
+    "price": 500.0,
+    "discountedPrice": 450.0,
+    "rating": 4.9,
+    "reviews": 310
+  },
+  {
+    "id": 40,
+    "title": "JBL Quantum 800 Wireless Gaming Headphones",
+    "image": "https://m.media-amazon.com/images/I/71plrtRXJNL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 199.99,
+    "discountedPrice": 179.99,
+    "rating": 4.6,
+    "reviews": 150
+  },
+  {
+    "id": 41,
+    "title": "SteelSeries Arctis 7 Wireless Headphones",
+    "image": "https://m.media-amazon.com/images/I/81pCpKFjBZL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 149.99,
+    "discountedPrice": 129.99,
+    "rating": 4.7,
+    "reviews": 200
+  },
+  {
+    "id": 42,
+    "title": "iPhone 16 Pro",
+    "image": "https://m.media-amazon.com/images/I/61veAtnXzWL.__AC_SY445_SX342_QL70_ML2_.jpg",
+    "price": 80.0,
+    "discountedPrice": 65.0,
+    "rating": 4.3,
+    "reviews": 300
+  }
+]

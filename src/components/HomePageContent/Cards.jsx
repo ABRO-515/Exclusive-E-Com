@@ -1,16 +1,31 @@
 
-import React, { useEffect } from "react";
-import products from "./products.json"; // Import the JSON data
+import React, { useContext, useEffect } from "react";
 import { IoCashOutline } from "react-icons/io5";
 import 'aos/dist/aos.css'; // Import AOS styles
 import AOS from 'aos';
-import shop from "../assets/shop.png";
-import bag from "../assets/bag.png";
+import { NavLink } from "react-router-dom";
+import products from "../../api/products.json";
+import { SearchContext } from "../../context/SearchContext";
+
+
 
 const Cards = () => {
   useEffect(() => {
     AOS.init(); // Initialize AOS
   }, []);
+
+
+  const {searchQuery} = useContext(SearchContext);
+
+  const searchCards = (elem) => {
+    if(searchQuery){
+      return elem.title.toLowerCase().includes(searchQuery.toLowerCase())
+    }
+    return elem
+  }
+  
+  
+    const filteredCards = products.filter((elem)=> searchCards(elem))
 
   return (
     <>
@@ -27,10 +42,10 @@ const Cards = () => {
       </div>
 
       <div className="  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-4 md:mx-6 xl:mx-12 mt-8">
-        {products.map((product) => (
-          <div
+        {filteredCards.map((product) => (
+       <NavLink to={`/products/${product.title}`} >   <div
             key={product.id}
-            className="card-container relative w-full bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-200"
+            className="card-container relative w-full cursor-pointer bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-200"
             data-aos="fade-in" // AOS Animation attribute
             data-aos-duration="1000" // Animation duration in milliseconds
           >
@@ -41,13 +56,8 @@ const Cards = () => {
                 alt={product.title}
                 className="w-full md:h-[250px] h-[317px] flex justify-center items-center bg-[#F5F5F5] p-4 object-contain"
               />
-              {/* Add to Cart Button */}
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <button className="bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700">
-                  Add to Cart
-                </button>
-              </div>
-            </div>``
+              
+            </div>
 
             {/* Card Details */}
             <div className="p-4">
@@ -78,22 +88,22 @@ const Cards = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div></NavLink>
         ))}
       </div>
       <div className="last-btn flex items-center justify-center mt-12">
-        <button className="bg-red-500 px-5 py-3 font-[500] text-white rounded-md" >View All Products</button>
+   <NavLink to="/allproducts" >    <button className="bg-red-500 px-5 py-3 font-[500] text-white rounded-md" >View All Products</button></NavLink> 
       </div>
 
 
       {/* last-section */}
 
-      <div className="  grid grid-cols-1  lg:grid-cols-3 mx-14  gap-12 ">
+      <div className=" mb-24 grid grid-cols-1  lg:grid-cols-3 mx-14  gap-12 text-center ">
 
         <div className="flex flex-col gap-3 items-center mt-14  " >
           <div className="bg-[#2F2E30]  rounded-full flex items-center w-fit p-[9px]">
             <div className="rounded-full bg-black flex items-center w-fit p-[10px]" >
-              <img src={shop} alt="" />
+              <img src="/shop.png" alt="" />
             </div>
           </div>
           <h1 className="font-bold" >FREE AND FAST DELIVERY</h1>
@@ -103,7 +113,7 @@ const Cards = () => {
         <div className="flex flex-col gap-3 items-center mt-14  " >
           <div className="bg-[#2F2E30]  rounded-full flex items-center w-fit p-[9px]">
             <div className="rounded-full bg-black flex items-center w-fit p-[10px]" >
-              <img src={bag} alt="" />
+              <img src="/bag.png" alt="" />
             </div>
           </div>
           <h1 className="font-bold" >24/7 CUSTOMER SERVICE</h1>
@@ -113,7 +123,7 @@ const Cards = () => {
         <div className="flex flex-col gap-3 items-center mt-14" >
           <div className="bg-[#2F2E30]  rounded-full flex items-center w-fit p-[9px]">
             <div className="rounded-full bg-black flex items-center w-fit p-[10px]" >
-            <IoCashOutline className="text-white text-[40px]"  />
+              <IoCashOutline className="text-white text-[40px]" />
             </div>
           </div>
           <h1 className="font-bold" >MONEY BACK GUARANTEE</h1>

@@ -1,8 +1,8 @@
 import React from 'react'
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-import iphoneHand from "../assets/iphoneHand.jpg";
-import apple from "../assets/apple.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { NavLink } from 'react-router-dom';
+
 
 const FirstSection = () => {
     return (
@@ -46,17 +46,20 @@ const FirstSection = () => {
                 <div className="right-column  items-center h-full justify-center font-montserrat lg:mx-3 w-[100%] mt-2 text-white bg-black flex  ">
                     <div className="text-box  flex flex-col mx-3 px-1 gap-4 md:px-8 lg:px-28 justify-center">
                         <div className="apple flex items-center gap-2">
-                            <img className='h-[1.6rem] md:h-[2.2rem] ' src={apple} alt="apple" />
-                           <h2>iPhone 16 Series</h2> 
+                            <img className='h-[1.6rem] md:h-[2.2rem] ' loading='eager' fetchpriority="high" src="/apple.png" alt="apple" />
+
+                            <h2>iPhone 16 Series</h2>
                         </div  >
                         <h1 className='xl:text-5xl md:text-3xl lg:text-4xl text-xl font-semibold'>Up to 10% <br />off Voucher</h1>
                         <div className='flex items-center ' >
-                        <h3>Shop Now</h3>
-                        <IoIosArrowRoundForward className='text-2xl' />
+                           <NavLink to="/phones" ><h3>Shop Now</h3></NavLink> 
+                            <IoIosArrowRoundForward className='text-2xl' />
                         </div>
                     </div>
                     <div className="img w-[12rem] md:w-[19rem]  flex items-center justify-center">
-                        <img className=''  src={iphoneHand} alt="iPhone in hand" />
+
+                        <img src="/iphoneHand.jpg"   loading="eager" fetchpriority="high" alt='iphone in hand' />
+
                     </div>
                 </div>
             </div>

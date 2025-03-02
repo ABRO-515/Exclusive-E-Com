@@ -1,0 +1,222 @@
+[
+  {
+    "id": 15,
+    "brand": "Apple",
+    "title": "iPhone 16 Pro",
+    "image": "https://m.media-amazon.com/images/I/61veAtnXzWL.__AC_SY445_SX342_QL70_ML2_.jpg",
+    "price": 80.0,
+    "discountedPrice": 65.0,
+    "rating": 4.3,
+    "reviews": 90
+  },
+  {
+    "id": 16,
+    "brand": "Apple",
+    "title": "iPhone 16",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/phones/phone1.png",
+    "price": 40.0,
+    "discountedPrice": 30.0,
+    "rating": 4.4,
+    "reviews": 120
+  },
+  {
+    "id": 17,
+    "brand": "Apple",
+    "title": "iPhone 16e",
+    "image": "https://m.media-amazon.com/images/I/610vqacJO2L._AC_SX679_.jpg",
+    "price": 150.0,
+    "discountedPrice": 130.0,
+    "rating": 4.6,
+    "reviews": 180
+  },
+  {
+    "id": 18,
+    "brand": "Apple",
+    "title": "iPhone 12 Pro",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/phones/phone4-removebg-preview.png",
+    "price": 250.0,
+    "discountedPrice": 220.0,
+    "rating": 4.7,
+    "reviews": 95
+  },
+  {
+    "id": 19,
+    "brand": "Apple",
+    "title": "iPhone 13 Pro",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/phones/phone5.png",
+    "price": 60.0,
+    "discountedPrice": 45.0,
+    "rating": 4.5,
+    "reviews": 135
+  },
+  {
+    "id": 20,
+    "brand": "Apple",
+    "title": "iPhone 15 Pro",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/phones/phone2-removebg-preview.png",
+    "price": 400.0,
+    "discountedPrice": 350.0,
+    "rating": 4.8,
+    "reviews": 210
+  },
+  {
+    "id": 21,
+    "brand": "Apple",
+    "title": "iPhone 14 Pro",
+    "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/phones/phone3-removebg-preview.png",
+    "price": 130.0,
+    "discountedPrice": 110.0,
+    "rating": 4.6,
+    "reviews": 160
+  },
+  {
+    "id": 22,
+    "brand": "Google",
+    "title": "Google Pixel 9",
+    "image": "https://m.media-amazon.com/images/I/61fh21u3DJL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "price": 45.0,
+    "discountedPrice": 35.0,
+    "rating": 4.3,
+    "reviews": 80
+  },
+  {
+    "id": 23,
+    "brand": "Google",
+    "title": "Google Pixel 8 Pro",
+    "image": "https://m.media-amazon.com/images/I/41h8X4SAG5L._AC_SX679_.jpg",
+    "price": 375.0,
+    "discountedPrice": 400.0,
+    "rating": 4.7,
+    "reviews": 150
+  },
+  {
+    "id": 24,
+    "brand": "Google",
+    "title": "Google Pixel 7a",
+    "image": "https://m.media-amazon.com/images/I/61r7cCpQPlL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "price": 499.0,
+    "discountedPrice": 449.0,
+    "rating": 4.5,
+    "reviews": 120
+  },
+  {
+    "id": 25,
+    "brand": "Google",
+    "title": "Google Pixel Fold",
+    "image": "https://m.media-amazon.com/images/I/61obpR7xQ+L._AC_SX679_.jpg",
+    "price": 1799.0,
+    "discountedPrice": 1699.0,
+    "rating": 4.6,
+    "reviews": 90
+  },
+  {
+    "id": 26,
+    "brand": "Samsung",
+    "title": "Galaxy S25 Ultra",
+    "image": "https://m.media-amazon.com/images/I/61n0lmxP5-L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "price": 180.0,
+    "discountedPrice": 150.0,
+    "rating": 4.7,
+    "reviews": 140
+  },
+  {
+    "id": 27,
+    "brand": "Samsung",
+    "title": "Galaxy S24",
+    "image": "https://m.media-amazon.com/images/I/517wd0xP59L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "price": 55.0,
+    "discountedPrice": 40.0,
+    "rating": 4.2,
+    "reviews": 60
+  },
+  {
+    "id": 28,
+    "brand": "Samsung",
+    "title": "Galaxy Z Fold 6",
+    "image": "https://m.media-amazon.com/images/I/61896OtgvGL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 1799.0,
+    "discountedPrice": 1699.0,
+    "rating": 4.8,
+    "reviews": 200
+  },
+  {
+    "id": 29,
+    "brand": "Samsung",
+    "title": "Galaxy Z Flip 6",
+    "image": "https://m.media-amazon.com/images/I/31clRba57sL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 999.0,
+    "discountedPrice": 949.0,
+    "rating": 4.6,
+    "reviews": 180
+  },
+  {
+    "id": 30,
+    "brand": "Samsung",
+    "title": "Galaxy A55",
+    "image": "https://m.media-amazon.com/images/I/61s7W4UjnoL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 449.0,
+    "discountedPrice": 399.0,
+    "rating": 4.4,
+    "reviews": 130
+  },
+  {
+    "id": 31,
+    "brand": "OnePlus",
+    "title": "OnePlus 12",
+    "image": "https://m.media-amazon.com/images/I/61Fu+4IS11L._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 799.0,
+    "discountedPrice": 749.0,
+    "rating": 4.6,
+    "reviews": 200
+  },
+  {
+    "id": 32,
+    "brand": "OnePlus",
+    "title": "OnePlus 11",
+    "image": "https://m.media-amazon.com/images/I/81fRAoUL-fL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 699.0,
+    "discountedPrice": 649.0,
+    "rating": 4.5,
+    "reviews": 180
+  },
+  {
+    "id": 33,
+    "brand": "Xiaomi",
+    "title": "Xiaomi 14 Pro",
+    "image": "https://m.media-amazon.com/images/I/617yVE1WoQL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 899.0,
+    "discountedPrice": 849.0,
+    "rating": 4.4,
+    "reviews": 150
+  },
+  {
+    "id": 34,
+    "brand": "Xiaomi",
+    "title": "Xiaomi 13",
+    "image": "https://m.media-amazon.com/images/I/41UZCtYsNOL._AC_UY327_FMwebp_QL65_.jpg",
+    "price": 799.0,
+    "discountedPrice": 749.0,
+    "rating": 4.3,
+    "reviews": 120
+  },
+  {
+    "id": 35,
+    "brand": "Nothing",
+    "title": "Nothing 2a",
+    "image": "https://m.media-amazon.com/images/I/61oycK5i7qL._AC_UL480_FMwebp_QL65_.jpg",
+    "price": 899.0,
+    "discountedPrice": 849.0,
+    "rating": 4.5,
+    "reviews": 130
+  },
+  {
+    "id": 36,
+    "brand": "Nothing",
+    "title": "Nothing 2",
+    "image": "https://m.media-amazon.com/images/I/71hsuRTQ29L._AC_SX569_.jpg",
+    "price": 499.0,
+    "discountedPrice": 449.0,
+    "rating": 4.2,
+    "reviews": 100
+  }
+]

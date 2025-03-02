@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "PlayStation 5",
+      "image": "https://m.media-amazon.com/images/I/31JaiPXYI8L._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 499.99,
+      "discountedPrice": 449.99,
+      "rating": 4.9,
+      "reviews": 2000
+    },
+    {
+      "id": 2,
+      "title": "Xbox Series X",
+      "image": "https://m.media-amazon.com/images/I/616klipzdtL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 499.99,
+      "discountedPrice": 459.99,
+      "rating": 4.8,
+      "reviews": 1800
+    },
+    {
+      "id": 3,
+      "title": "Nintendo Switch ",
+      "image": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 349.99,
+      "discountedPrice": 329.99,
+      "rating": 4.7,
+      "reviews": 1500
+    },
+    {
+      "id": 4,
+      "title": "Meta Quest 3 ",
+      "image": "https://m.media-amazon.com/images/I/61I66N7SE6L._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 499.99,
+      "discountedPrice": 479.99,
+      "rating": 4.6,
+      "reviews": 1200
+    },
+    {
+      "id": 5,
+      "title": "Logitech G29 Driving Force Steering Wheel",
+      "image": "https://m.media-amazon.com/images/I/71CIJhFoGlL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 299.99,
+      "discountedPrice": 269.99,
+      "rating": 4.7,
+      "reviews": 900
+    },
+    {
+      "id": 6,
+      "title": "Thrustmaster T300 RS GT Racing Wheel",
+      "image": "https://m.media-amazon.com/images/I/71vf7FTHtAL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 399.99,
+      "discountedPrice": 379.99,
+      "rating": 4.8,
+      "reviews": 850
+    },
+    {
+      "id": 7,
+      "title": "Xbox Elite Series 2",
+      "image": "https://m.media-amazon.com/images/I/717XTm0moDL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 159,
+      "discountedPrice": 279.99,
+      "rating": 4.6,
+      "reviews": 2500
+    },
+    {
+      "id": 8,
+      "title": "PlayStation Portal Play",
+      "image": "https://m.media-amazon.com/images/I/61tWTfjqlOL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 549.99,
+      "discountedPrice": 529.99,
+      "rating": 4.7,
+      "reviews": 1300
+    }
+  ]

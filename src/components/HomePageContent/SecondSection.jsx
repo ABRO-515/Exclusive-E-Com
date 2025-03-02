@@ -5,6 +5,7 @@ import { FaLaptop } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
 import { FaCamera } from "react-icons/fa";
 import { FaHeadphones } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const SecondSection = () => {
     return (
@@ -20,26 +21,26 @@ const SecondSection = () => {
                 </div>
 
                 <div className="  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mx-4 md:mx-6 xl:mx-12 mt-8 pb-11 border-b border-gray-300 " >
-                    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
+                    <NavLink to="/phones" >     <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
                         <FaMobileAlt className='text-5xl font-semibold' />
                         <h2>Phones</h2>
-                    </div>
-                    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
-                        <FaLaptop  className='text-5xl font-semibold' />
+                    </div> </NavLink>
+                    <NavLink to="/computers" >       <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
+                        <FaLaptop className='text-5xl font-semibold' />
                         <h2>Computer</h2>
-                    </div>
-                    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
+                    </div></NavLink>
+                    <NavLink to="/cameras" ><div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
                         <FaCamera className='text-5xl font-semibold' />
                         <h2>Camera</h2>
-                    </div>
-                    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
+                    </div></NavLink>
+                    <NavLink to="/headphones" >  <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
                         <FaHeadphones className='text-5xl font-semibold' />
                         <h2>Headphones</h2>
-                    </div>
-                    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
+                    </div></NavLink>
+                    <NavLink to="/gaming" >    <div className="box border-2 border-gray-300 flex flex-col text-xl items-center justify-center gap-2 rounded-md   px-3 py-6">
                         <IoGameController className='text-5xl font-semibold' />
                         <h2>Gaming</h2>
-                    </div>
+                    </div></NavLink>
 
 
                 </div>

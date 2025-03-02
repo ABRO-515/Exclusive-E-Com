@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Bose Headphones",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone2-removebg-preview.png",
+      "price": 120.0,
+      "discountedPrice": 90.0,
+      "rating": 4.7,
+      "reviews": 140
+    },
+    {
+      "id": 2,
+      "title": "Anker Soundcore Headphones",
+      "image": "https://m.media-amazon.com/images/I/51l80KVua0L.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 90.0,
+      "discountedPrice": 70.0,
+      "rating": 4.5,
+      "reviews": 95
+    },
+    {
+      "id": 3,
+      "title": "Uliptz Headphones",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone3-removebg-preview.png",
+      "price": 80.0,
+      "discountedPrice": 60.0,
+      "rating": 4.6,
+      "reviews": 180
+    },
+    {
+      "id": 4,
+      "title": "Maxon Headphones",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone4-removebg-preview.png",
+      "price": 150.0,
+      "discountedPrice": 120.0,
+      "rating": 4.8,
+      "reviews": 220
+    },
+    {
+      "id": 5,
+      "title": "Sony WH-CH720N White | Wireless Headphones",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone5-removebg-preview.png",
+      "price": 200.0,
+      "discountedPrice": 170.0,
+      "rating": 4.5,
+      "reviews": 75
+    },
+    {
+      "id": 6,
+      "title": "Doaqus Gaming Headphones",
+      "image": "https://e-commerce-chi-eight-35.vercel.app/newproducts/gaming/headphone6-removebg-preview.png",
+      "price": 500.0,
+      "discountedPrice": 450.0,
+      "rating": 4.9,
+      "reviews": 310
+    },
+    {
+      "id": 7,
+      "title": "JBL Quantum 800 Wireless Gaming Headphones",
+      "image": "https://m.media-amazon.com/images/I/71plrtRXJNL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 199.99,
+      "discountedPrice": 179.99,
+      "rating": 4.6,
+      "reviews": 150
+    },
+    {
+      "id": 8,
+      "title": "SteelSeries Arctis 7 Wireless Headphones",
+      "image": "https://m.media-amazon.com/images/I/81pCpKFjBZL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 149.99,
+      "discountedPrice": 129.99,
+      "rating": 4.7,
+      "reviews": 200
+    }
+  ]

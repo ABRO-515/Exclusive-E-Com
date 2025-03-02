@@ -1,6 +1,5 @@
 import React from 'react'
 import CountdownTimer from './CountdownTimer'
-import speaker from "../assets/speaker.png";
 
 const JBL = () => {
     return (
@@ -17,7 +16,7 @@ const JBL = () => {
                         <CountdownTimer/>
                     </div>
 
-                    <img  className='    h-[20rem]' src={speaker} alt="Speaker" />
+                    <img  className='    h-[20rem]' src="/speaker.png" alt="Speaker" />
                 </div>
             </div>
         </>

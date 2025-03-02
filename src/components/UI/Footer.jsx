@@ -1,15 +1,12 @@
 import React from 'react'
 import { BiSend } from "react-icons/bi";
-import QRCode from "../assets/QRCode.png";
-import e from "../assets/e.png";
-import a from "../assets/a.png";
 
 const Footer = () => {
     return (
         <>
-        <main className='w-full bg-black' >
-            <div className="flex  items-center pt-8 mt-24 justify-center  bg-black">
-                <div className='grid  md:grid-cols-2  lg:grid-cols-3  gap-16 ' >
+        <main className='w-full h-full bg-black' >
+            <div className="flex  items-center pt-8  justify-center  bg-black">
+                <div className='grid  md:grid-cols-2  lg:grid-cols-3  gap-16 lg:mx-20' >
 
                     
                     <div className="text-1 flex flex-col text-white  gap-4 ">
@@ -55,14 +52,14 @@ const Footer = () => {
 
 
                         <div className="images flex gap-4 item-center pb-8 ">
-                            <img className='bg-white h-[95px] w-[80px] ' src={QRCode} alt="" />
+                            <img className='bg-white h-[95px] w-[80px] ' src="/QRCode.png" alt="" />
 
                             <div className="flex flex-col gap-2">
                                 <div className="google bg-white border border-white rounded-lg">
-                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src={e} alt="" />
+                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src="/e.png" alt="" />
                                 </div>
                                 <div className="google bg-white border border-white rounded-lg">
-                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src={a} alt="" />
+                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src="/a.png" alt="" />
                                 </div>
 
                             </div>

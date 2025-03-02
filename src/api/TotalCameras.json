@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "title": "Canon EOS R5",
+      "image": "https://m.media-amazon.com/images/I/61lKwvtzRzL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "price": 3899.0,
+      "discountedPrice": 3599.0,
+      "rating": 4.8,
+      "reviews": 450
+    },
+    {
+      "id": 2,
+      "title": "Sony Alpha 7 IV",
+      "image": "https://m.media-amazon.com/images/I/51dfdRXXcjL._AC_SX522_.jpg",
+      "price": 2499.0,
+      "discountedPrice": 2299.0,
+      "rating": 4.7,
+      "reviews": 400
+    },
+    {
+      "id": 3,
+      "title": "Nikon Z9",
+      "image": "https://m.media-amazon.com/images/I/71Exl3eQqFL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 5499.0,
+      "discountedPrice": 5299.0,
+      "rating": 4.9,
+      "reviews": 500
+    },
+    {
+      "id": 4,
+      "title": "Fujifilm X-T4",
+      "image": "https://m.media-amazon.com/images/I/61d3Z7GYoFL.__AC_SX300_SY300_QL70_ML2_.jpg",
+      "price": 1699.0,
+      "discountedPrice": 1499.0,
+      "rating": 4.6,
+      "reviews": 350
+    },
+    {
+      "id": 5,
+      "title": "Panasonic Lumix S5",
+      "image": "https://m.media-amazon.com/images/I/71QZe9IN+xL._AC_SY300_SX300_.jpg",
+      "price": 1999.0,
+      "discountedPrice": 1799.0,
+      "rating": 4.5,
+      "reviews": 300
+    },
+    {
+      "id": 6,
+      "title": "Olympus OM-D E-M1 Mark III",
+      "image": "https://m.media-amazon.com/images/I/710gGSpEj-L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 1799.0,
+      "discountedPrice": 1599.0,
+      "rating": 4.4,
+      "reviews": 250
+    },
+    {
+      "id": 7,
+      "title": "Leica Q2",
+      "image": "https://m.media-amazon.com/images/I/71Cbp-Nv0eL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 4995.0,
+      "discountedPrice": 4795.0,
+      "rating": 4.7,
+      "reviews": 200
+    },
+    {
+      "id": 8,
+      "title": "GoPro Hero 10 Black",
+      "image": "https://m.media-amazon.com/images/I/81IR2thM+YL._AC_UY327_FMwebp_QL65_.jpg",
+      "price": 499.0,
+      "discountedPrice": 449.0,
+      "rating": 4.6,
+      "reviews": 600
+    }
+  ]
