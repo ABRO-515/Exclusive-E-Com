@@ -70,7 +70,7 @@ const HeaderNew = () => {
                 onChange={handleSearchChange}
                 value={searchQuery}
                 placeholder="What are you looking for?"
-                className="px-3 py-1 placeholder:text-sm text-gray-800 outline-none bg-[#F5F5F5]"
+                className="px-3 w-[16.4rem] py-1 placeholder:text-sm text-gray-800 outline-none bg-[#F5F5F5]"
               />
               <IoSearchSharp />
             </div>
