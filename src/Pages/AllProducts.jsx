@@ -53,12 +53,7 @@ const searchProducts = (elem) => {
                 alt={product.title}
                 className="w-full md:h-[250px] h-[317px] flex justify-center items-center bg-[#F5F5F5] p-4 object-contain"
               />
-              {/* Add to Cart Button */}
-              <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
-                <button className="bg-red-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700">
-                  Add to Cart
-                </button>
-              </div>
+    
             </div>
 
             {/* Card Details */}

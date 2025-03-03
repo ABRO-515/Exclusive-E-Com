@@ -1,78 +1,95 @@
-import React from 'react'
-import { BiSend } from "react-icons/bi";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { IoSendOutline  } from "react-icons/io5";
 
 const Footer = () => {
-    return (
-        <>
-        <main className='w-full h-full bg-black' >
-            <div className="flex  items-center pt-8  justify-center  bg-black">
-                <div className='grid  md:grid-cols-2  lg:grid-cols-3  gap-16 lg:mx-20' >
+  return (
+    <footer className="bg-black text-white py-10 px-6 md:px-16">
+      <div className="max-w-7xl mx-auto grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        
+        {/* Exclusive Subscribe Section */}
+        <div>
+          <h3 className="font-bold text-lg">Exclusive</h3>
+          <p className="mt-2">Subscribe</p>
+          <p className="text-sm">Get 10% off your first order</p>
+          <div className="mt-4 flex items-center border border-gray-500 rounded-lg overflow-hidden">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="bg-transparent px-4 py-2 w-full outline-none text-sm"
+            />
+            <IoSendOutline   className="text-white mr-2" /> 
+           
+          </div>
+        </div>
 
-                    
-                    <div className="text-1 flex flex-col text-white  gap-4 ">
-                        <h1 className='font-bold text-2xl ' >Exclusive</h1>
-                        <h2 className='font-semibold  text-lg ' >Subscribe</h2>
-                        <p>Get 10% off on your first order</p>
-                        <div className="flex border-white border items-center lg:mr-8 w-fit">
-                            <input type="email" placeholder='Enter your email' className='py-3 w-fit pl-4 lg:pr-0 bg-black text-white border-none' />
-                            <BiSend className='ml-3 mr-3 text-xl' />
-                        </div>
-                    </div>
-                    <div className="text-1 flex flex-col text-white gap-4   md:mt-0  ">
+        {/* Support Section */}
+        <div>
+          <h3 className="font-bold text-lg">Support</h3>
+          <p className="mt-2 text-sm">111 Bijoy Sarani, Dhaka, DH 1515, Bangladesh.</p>
+          <p className="mt-2 text-sm">exclusive@gmail.com</p>
+          <p className="mt-2 text-sm">+88015-88888-9999</p>
+        </div>
 
-                        <h2 className='font-semibold  text-lg ' >Support</h2>
-                        <p className='text-sm' >111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
-                        <p className='text-sm' >exclusive@gmail.com</p>
-                        <p className='text-sm' >+88015-88888-9999</p>
+        {/* Account Section */}
+        <div>
+          <h3 className="font-bold text-lg">Account</h3>
+          <ul className="mt-2 space-y-2 text-sm">
+            <li>My Account</li>
+            <li>Login / Register</li>
+            <li>Cart</li>
+            <li>Wishlist</li>
+            <li>Shop</li>
+          </ul>
+        </div>
 
-                    </div>
-                    <div className="text-1 flex flex-col text-white gap-4   md:mt-0  ">
+        {/* Quick Links Section */}
+        <div>
+          <h3 className="font-bold text-lg">Quick Link</h3>
+          <ul className="mt-2 space-y-2 text-sm">
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+            <li>FAQ</li>
+            <li>Contact</li>
+          </ul>
+        </div>
 
-                        <h2 className='font-semibold  text-lg ' >Account</h2>
-                        <p className='text-sm' >My Account</p>
-                        <p className='text-sm' >Login/Register</p>
-                        <p className='text-sm' >Cart</p>
-                        <p className='text-sm' >Wishlist</p>
-                        <p className='text-sm' >Shop</p>
-
-                    </div>
-                    <div className="text-1 flex flex-col text-white gap-4   md:mt-0  ">
-
-                        <h2 className='font-semibold  text-lg ' >Quick Link</h2>
-                        <p className='text-sm' >Privacy Policy</p>
-                        <p className='text-sm' >Terms Of Use</p>
-                        <p className='text-sm' >FAQ</p>
-                        <p className='text-sm' >Contact</p>
-
-                    </div>
-                    <div className="text-1 flex flex-col text-white gap-4   md:mt-0 lg:w-fit ">
-
-                        <h2 className='font-semibold  text-lg ' >Download App</h2>
-                        <p className='text-sm' >Save $3 with App New User Only</p>
-
-
-                        <div className="images flex gap-4 item-center pb-8 ">
-                            <img className='bg-white h-[95px] w-[80px] ' src="/QRCode.png" alt="" />
-
-                            <div className="flex flex-col gap-2">
-                                <div className="google bg-white border border-white rounded-lg">
-                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src="/e.png" alt="" />
-                                </div>
-                                <div className="google bg-white border border-white rounded-lg">
-                                    <img className=' bg-black rounded-lg h-[40px] w-[6.25rem] ' src="/a.png" alt="" />
-                                </div>
-
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
+        {/* Download App & Social Media */}
+        <div>
+          <h3 className="font-bold text-lg">Download App</h3>
+          <p className="text-sm mt-2">Save $3 with App New User Only</p>
+          <div className="mt-3">
+            <img
+              src="/QRCode.png"  // Replace with your QR code image
+              alt="QR Code"
+              className="w-24  border-[1px] border-white bg-white"
+            />
+          </div>
+          <div className="mt-3 flex space-x-2">
+          <div className="border-[3px] rounded-md" >
+            <img
+              src="/e.png" className="h-[2rem]" // Replace with Google Play Store button
+              alt="Google Play"
+            />
             </div>
-            </main>
-        </>
-    )
-}
+<div className="border-[3px] rounded-md" >
+            <img
+              src="/a.png" className="h-[2rem]" // Replace with Apple App Store button
+              alt="App Store"
+            />
+</div>
 
-export default Footer
+          </div>
+          <div className="mt-4 flex space-x-4 text-xl">
+            <FaFacebookF />
+            <FaTwitter />
+            <FaInstagram />
+            <FaLinkedinIn />
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

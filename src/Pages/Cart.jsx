@@ -99,7 +99,7 @@ export const Cart = () => {
             )}
 
             {/* Return to shop button */}
-            <div className="border border-gray-300 py-3 font-medium rounded-md shadow-md w-full text-center mb-3">
+            <div className="border border-gray-300 py-3 hover:bg-[#F3F4F6] font-medium rounded-md shadow-md w-full text-center mb-3">
               <NavLink to="/allproducts">
                 <h1>Return to shop</h1>
               </NavLink>
@@ -107,7 +107,7 @@ export const Cart = () => {
           </div>
 
           {/* Checkout Summary */}
-          <div className="flex flex-col border border-gray-300 w-[-webkit-fill-available] rounded-md shadow-lg lg:w-[25rem] py-2 px-3 gap-2 mb-6">
+          <div className="flex flex-col border border-gray-300 w-[-webkit-fill-available] rounded-md shadow-lg lg:w-[25rem] py-2 px-3 gap-2 mb-6 lg:mb-3">
             <h2 className="my-2 font-semibold text-xl">Checkout Summary</h2>
             <div className="flex justify-between">
               <h2>Subtotal:</h2>
